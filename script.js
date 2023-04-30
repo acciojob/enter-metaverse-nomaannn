@@ -1,7 +1,8 @@
 //your JS code here. If required.
 let enterBtn = document.getElementById('enterBtn')
 
-enterBtn.document.querySelector('click',function {
+
+function rm(){
 	let para = document.getElementById('para')
-	para.innerText = "Entered Metaverse"
-})
+	para.innerHTML = "<h1>Entered Metaverse<h1>"
+}
